@@ -9,7 +9,7 @@ Repo to alow you to download this application, run the command and get the long 
 
 3. Download the OAuth Credentials Json file to see required details
 
-4. In application-prod.yml, add in the required environment variables to properties
+4. In application.yml, add in the required environment variables to properties
 
 5. Check GenerateLongTermAccessTokenGoogleOauth2.java line 35, Ensure that the token we get will have access to the required data.
 

@@ -1,7 +1,7 @@
 # Google_Oauth2_LongLivedToken
 Repo to alow you to download this application, run the command and get the long term required access credential
 
-# How TO USe
+# How To Use
 
 1. Clone this repo to your local Workspace
 

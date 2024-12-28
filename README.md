@@ -1,4 +1,4 @@
-# Google_Oauth2_LongLivedToken
+# Google_Oauth2_LongLivedCredential
 Repo to alow you to download this application, run the command and get the long term required access credential
 
 # How To Use

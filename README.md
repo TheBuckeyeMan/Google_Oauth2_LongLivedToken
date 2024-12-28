@@ -5,7 +5,7 @@ Repo to alow you to download this application, run the command and get the long 
 
 1. Clone this repo to your local Workspace
 
-2. Set up google cloud OAuth Consent Form and OAuth credentials 
+2. Set up google cloud OAuth Consent Form and OAuth credentials on google cloud
 
 3. Download the OAuth Credentials Json file to see required details
 

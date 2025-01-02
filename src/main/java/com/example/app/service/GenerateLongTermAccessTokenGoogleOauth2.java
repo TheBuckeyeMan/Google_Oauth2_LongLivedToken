@@ -36,7 +36,7 @@ public class GenerateLongTermAccessTokenGoogleOauth2 {
                 Collections.singletonList("https://www.googleapis.com/auth/youtube.readonly") //Change if you need different access with your token. Ex. TO get video data it will be .readonly or to post it will be .upload
         ).setAccessType("offline").build();
 
-        LocalServerReceiver receiver = new LocalServerReceiver.Builder().setPort(8090).setCallbackPath("/oauth2/callback").build(); //Change to the port Specified in Google Cloud
+        LocalServerReceiver receiver = new LocalServerReceiver.Builder().setPort(8087).setCallbackPath("/oauth2/callback").build(); //Change to the port Specified in Google Cloud
         Credential credential = new AuthorizationCodeInstalledApp(flow, receiver).authorize("user");
 
         String refreshToken = credential.getRefreshToken();

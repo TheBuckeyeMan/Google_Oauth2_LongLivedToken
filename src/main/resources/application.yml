@@ -8,8 +8,8 @@ spring:
 #Step 4: Add configuration Details Below - DO NOT COMMIT THIS TO GITHUB AFTER FILLING OUT
 google:
   api:
-    clientid: <CLIENT ID>
-    clientsecret: <CLIENT SECRET>
+    clientid: ${CLIENT_ID}
+    clientsecret: ${CLIENT_SECRET}
     authuri: "https://accounts.google.com/o/oauth2/auth"
     tokenuri: "https://oauth2.googleapis.com/token"
-    redirecturi: <REDIRECT URI> #Ensure port in this redirect URI is the same as the one specified in the docker run command - See README.md
+    redirecturi: ${REDIRECT_URI} #Ensure port in this redirect URI is the same as the one specified in the docker run command - See README.md

@@ -33,7 +33,7 @@ public class GenerateLongTermAccessTokenGoogleOauth2 {
                 new com.google.api.client.http.javanet.NetHttpTransport(),
                 JSON_FACTORY,
                 clientSecrets,
-                Collections.singletonList("https://www.googleapis.com/auth/youtube.readonly") //Change if you need different access with your token. Ex. TO get video data it will be .readonly or to post it will be .upload
+                Collections.singletonList("https://www.googleapis.com/auth/youtube.upload") //Change if you need different access with your token. Ex. TO get video data it will be .readonly or to post it will be .upload or .readonly for the api to get the data
         ).setApprovalPrompt("force").setAccessType("offline").build();
 
         LocalServerReceiver receiver = new LocalServerReceiver.Builder().setPort(8087).setCallbackPath("/oauth2/callback").build(); //Change to the port Specified in Google Cloud
